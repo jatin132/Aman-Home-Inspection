@@ -1,0 +1,264 @@
+html, body{
+	font-family: "Open Sans";
+}
+/*header*/
+header{
+	background-color: #222222;
+	/*font-family: "Open Sans";*/
+	padding: 10px;
+}
+.link{
+	color: white;
+	font-size: 13px;
+	height: 24px;
+}
+.font1{
+	font-size: 14px;
+}		
+.whatsapp{
+	padding: 9px;
+	background-color: #25D366;
+	color: white;
+	border: none;
+	width: 36px;
+	height: 36px;
+}
+.whatsapp-two{
+	color: white;
+}
+.free-quote{
+	background-color: #EC3D06;
+	padding: 10px;
+	color: white;
+	margin-left: 20px;
+	border: none;
+}
+.free-quote a:hover{
+	text-decoration: none;
+	/*font-family: "Open Sans";*/
+}
+
+/*Navigation Bar*/
+li.li-one{
+	list-style-type: none;
+}
+.li-three{
+	margin-left: -35px;
+}
+a.nav-link{
+	font-size: 14px;
+}
+a.nav-link:hover{
+	text-decoration: underline;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 240px;
+}
+li.dropdown-content a.nav-link {
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  background-color: lightgrey;
+}
+li.nav-item{
+	transition: background-color 0.5s, color 1s;
+}
+.dropdown-content a.nav-link{
+	transition: color 0.5s, text-decoration 0.5s;
+}
+.dropdown-content a.nav-link:hover{
+	/*background-color: lightgrey;*/
+	color: black;
+	text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {display: block;}
+@media (max-width: 1700px) {
+  .dropdown-content {position: absolute; width: 240px;}
+}
+@media (max-width: 786px) {
+  .dropdown-content {position: relative; width: 625px;}
+}
+
+@media (max-width: 576px) {
+  .dropdown-content {position: relative; width: 452px;}
+}
+
+/*Anchor Link*/
+a.link{
+	color: white;
+}
+a.link:visited{
+	color: lightgrey;
+}
+a.link:active{
+	color: slategray;
+}
+a.link:hover{
+	color: whitesmoke;
+	text-decoration: underline;
+}
+
+h1.borderl{
+	position: relative;
+}
+h1.borderl::after{
+	content: "";
+	position: absolute;
+	display: block;
+	left: calc(50% - 5%);
+	bottom: -15px;
+	width: 100px;
+	height: 4px;
+	background-color: #EC3D06;
+}
+
+p.one{
+	font-size: 18px;
+}
+/*.hvr{
+	background-color: #39097D;
+}*/
+.radio{
+	border: 3px solid darkred;
+	margin-left: 130px;
+}
+
+/*Buttons */
+button.schedule{
+	background-color: #EC3D06;
+	color: white;
+	width: 300px;
+	height: 56px;
+	border: none;
+	font-size: 24px;
+}
+button.schedule:hover{
+	background-color: darkred;
+}
+.schedule:focus{
+	background-color: blue;
+}
+
+a.tel:link{
+	color: black;
+}
+a.tel:visited{
+	color: black;
+}
+a.tel:hover{
+	text-decoration: underline;
+}
+a.email:link{
+	color: black;
+}
+a.email:visited{
+	color: black;
+}
+a.email:hover{
+	text-decoration: underline;
+}
+
+/*form*/
+.error{
+	color: red;
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+/*footer*/
+footer{
+	background-color: #222222;
+	margin-top: 100px;
+	font-family: "Open Sans";
+}
+#footer{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+ul>li.footer-list, .footer-list-two{
+	list-style: none;
+	line-height: 45px;
+}
+a.tel-1:link{
+	color: white;
+}
+a.tel-1:visited{
+	color: white;
+}
+a.tel-1:hover{
+	text-decoration: underline;
+}
+a.email-1:link{
+	color: white;
+}
+a.email-1:visited{
+	color: white;
+}
+a.email-1:hover{
+	text-decoration: underline;
+}
+a.whatsapp-one:link{
+	color: white;
+}
+a.whatsapp-one:visited{
+	color: white;
+}
+a.whatsapp-one:hover{
+	text-decoration: underline;
+}
+a.address:link{
+	color: black;
+}
+a.address:visited{
+	color: black;
+}
+a.address:hover{
+	text-decoration: underline;
+}
+li {
+	list-style: none;
+}
+i.link{
+	margin-top: 40px;
+}
+i.link-one{
+		border: 2px solid white;
+		border-radius: 2px;
+		padding: 3px;
+}
+.eight{
+	font-size: 14px;
+}
+
+/*topbutton*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
+#myBtn:hover {
+  background-color: blue;
+}
